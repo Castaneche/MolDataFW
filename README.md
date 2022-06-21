@@ -28,3 +28,4 @@ This folder contains helpers to analyse the database. It outputs histogram for p
 
 
 # Credits
+This work was done under supervision of [ALLOUCHE Abdul Rahman](https://ilm.univ-lyon1.fr/index.php?option=com_directory&task=profile&id=34)
