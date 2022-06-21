@@ -1,0 +1,1 @@
+python energycorrection.py --infile ../tmp/Compound_020425001_020450000_CHON500noSalt_new_all.h5 --outfile out.h5

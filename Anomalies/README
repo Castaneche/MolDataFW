@@ -1,0 +1,5 @@
+# Anomalies
+
+Detect diverging energies in the database using dbscan algorithm. Usage : 
+
+	python anomalies.py --infile database.h5 --oufile database_corrected.h5

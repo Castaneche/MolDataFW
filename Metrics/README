@@ -1,0 +1,9 @@
+# Metrics
+
+This folder provides python scripts to display histograms of energy, forces, dipole of the .h5 database. 
+extract_data.py provide a way to extract and convert energy, forces and dipole from hdf file to csv file. This way it is easier to retrieve the data and plot histograms. Usage:
+
+	python --indir dirContaininghdfFiles --outfile outfilenameWithoutExtension --energy --dipole --force
+If you don't want to plot dipole or forces or energy, just remove the parameter from the command.	
+
+Analysis.ipynb is a notebook outputting all sort of histograms.

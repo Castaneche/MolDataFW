@@ -1,0 +1,11 @@
+# wACSF
+
+Compute G functions (see article at https://aip.scitation.org/doi/10.1063/1.5019667) for each atom of the database. Needed data are first packed to a single data array to compute the G functions in a single call (faster). This script is supposed to work with clustering.py inside the ../Clustering folder.
+
+# Args
+## inputs
+1. --infile : the input .h5 file containing molecule data
+2. --outfileG : .h5 file containing G functions for each atom
+
+## outputs
+A hdf file containing G functions for each atom.

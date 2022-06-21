@@ -1,0 +1,17 @@
+# Clustering
+
+Reduce the database to a specific percentage using clustering method. This folder contains two files : a python script and a notebook. The notebook is for testing purposes of the KMeans algorithm and to display interesting graphs such as inertia or centroids. clustering.py perform KMeans algorithm on data preprocessed with ../wACSF/Gcalc.py script.
+
+You might want to tweak some parameters inside the clustering.py file such as number of clusters (k) or percentage of each cluster to select (percentage)
+
+# Args
+## inputs
+1. --infile : the original database file (.h5) to retrieve selected molecule from.
+2. --infileG : .h5 file obtained when running ../wACSF/Gcalc.py script on the infile.
+3. --outfile : reduced database (.h5)
+
+## outputs
+A hdf file containing fewer molecules than the original database.
+
+# Example
+	python clustering.py --infile original.h5 --infileG original_G.h5 --outfile reduced.h5 

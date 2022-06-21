@@ -1,0 +1,18 @@
+# ComData
+
+comdata.py is used to read tar files and extract interesting values of the PubChemQC PM6 database. it stores .com files inside separated folder.
+
+# Args
+## inputs
+1. --N : number of .com file in each folders. If -1 (default) : number and name are the same of .h5 files
+2. --soft : software we will use later (usually Gaussian)
+3. --params : string params for calculation inside software (usually the method we want to use). It is printed at the top of the .com file.
+4. --h5dir : location of .h5 files generated with geomdata.py
+5. --outdir : output parent directory
+
+## outputs
+folders containing .com files
+
+# Example 
+	python comdata.py --N 1000 --soft Gaussian --params B3-LYP -- h5dir h5ParentDirectory --outdir outDirectory 
+

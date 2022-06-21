@@ -1,0 +1,14 @@
+# EnergyCorrection
+
+Perform an energy correction by subtracting energy of each atom inside the molecule to the total energy.
+
+# Args
+## inputs
+1. --infile : .h5 database
+2. --outfile : .h5 database with corrected energy
+
+## outputs
+.h5 database with corrected energy.
+
+# Example
+	python energycorrection.py --infile database.h5 --outfile database_corrected.h5 

@@ -1,0 +1,26 @@
+# GeomData
+This folder contains python files to extract interesting values from the PubChem database which consist of json files. Here, we chose to extract :
+ - Isomeric SMILES : an identifier
+ - InChI : an identifier
+ - cid : an identifier
+ - molecular formula
+ - charge : molecule total charge
+ - multiplicity : molecule total spin
+ - Z : atomic symbols of all atoms of the molecule
+ - coordinates : x, y, z, for each atom of the molecule
+ - energy : calculated using PM6 method
+ 
+It is allowed to extract more parameters by simply editing the parameters list at the top of geomdata.py. 
+
+## Args
+### Inputs
+- tar file containing the json files of the PubChem database
+### Outputs
+- a hdf file for each tar file of the database
+
+
+## Example usage
+Run the following command
+	
+	python geomdata.py <filename>
+

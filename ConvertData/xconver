@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python conver_h5_n2p2.py --infile Compound_000000001_000025000_CHON500noSalt_new_all.h5 --outfile Compound_000000001_000025000_CHON500noSalt_new_all.data
+python conver_n2p2_npz.py --infile Compound_000000001_000025000_CHON500noSalt_new_all.data --outfile Compound_000000001_000025000_CHON500noSalt_new_all.npz
